@@ -201,6 +201,10 @@ article[class^="col-3"]{
 	align:center;
 }
 
+.productImage{
+	height:200px;
+}
+
 .jacket1{
 	background-image:url("prod 1.png");
 	background-size:cover;
