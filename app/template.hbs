@@ -1,0 +1,12 @@
+{{#each products}}
+    <article class="col-4 prod1">
+       <div class="sticker reduc">{{this.discount}}%</div>
+        <div class="sticker new">NEW</div>
+        <a href="#"><img class="productImage" src="{{this.image}}"/></a>
+        <div class="text">
+        	<h4 class="prod title"><a href="#">{{this.name}}</a></h4><br>
+        	<p class="prod disc">{{this.desc}}</p>
+            <p class="from">From<strong class="price">${{this.price}}</strong><strong class="strike">${{this.originalPrice}}</strong></p>
+         </div>
+    </article>
+{{/each}}
